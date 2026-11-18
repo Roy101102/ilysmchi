@@ -919,16 +919,6 @@ function StickyTopNav({
               </>
             )}
           </button>
-
-          <button
-            type="button"
-            onClick={onOpenCustomize}
-            title="Customize content and photos"
-            aria-label="Customize content and photos"
-            className="flex h-11 w-11 items-center justify-center rounded-full bg-[#FFFDFB] text-[#765B60] border border-[#E8CFD3] active:scale-95 transition-transform"
-          >
-            <SlidersHorizontal className="h-4 w-4 text-[#9E3349]" />
-          </button>
         </div>
       </div>
 
